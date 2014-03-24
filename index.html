@@ -1,0 +1,27 @@
+---
+layout: default
+title: Homework!
+---
+
+<p>
+  To get started, <a href="https://github.com/feministy/homework/fork">fork</a> the repository. Clone it to your local machine:
+</p>
+
+<div class="highlight">
+  <pre>$ git clone https://github.com/YOUR_USERNAME/homework.git</pre>
+</div>
+
+<p>
+  Follow the instructions for each exercise and submit your code for review by submitting a pull request. Save your code inside of the <code>submissions/your_name</code> folder.
+</p>
+
+<p>
+  If you are writing JavaScript or Ruby, <strong>tests are required</strong> for your code to be reviewed. JavaScript tests can be written in <a href="{% post_url 2014-03-24-setting-up-qunit %}">Qunit</a> and Ruby tests should be written in RSpec.
+</p>
+
+<h2>Exercises</h2>
+<ul class="posts">
+  {% for post in site.categories.javascript %}
+    <li><span>{{ post.categories | array_to_sentence_string }}</span> &rarr; <a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>

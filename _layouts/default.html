@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/princess.css">
+
+    </head>
+    <body>
+
+        <div class="site">
+          <div class="header">
+            <a href="/">home</a>
+            <h1><a href="/">{{ site.name }}</a></h1>
+            <strong>Regularly scheduled brain maintenance.</strong>
+          </div>
+
+          {{ content }}
+
+          <div class="footer">
+            Created and mainted by Liz Abinante (<a href="http://twitter.com/feministy">@feministy</a>) on <a href="https://github.com/feministy/homework">GitHub</a>.
+          </div>
+        </div>
+
+    </body>
+</html>
