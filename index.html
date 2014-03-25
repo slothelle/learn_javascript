@@ -1,27 +1,44 @@
 ---
 layout: default
-title: Homework!
+title: 'JavaScript: Getting down to business'
 ---
 
 <p>
-  To get started, <a href="https://github.com/feministy/homework/fork">fork</a> the repository. Clone it to your local machine:
-</p>
-
-<div class="highlight">
-  <pre>$ git clone https://github.com/YOUR_USERNAME/homework.git</pre>
-</div>
-
-<p>
-  Follow the instructions for each exercise and submit your code for review by submitting a pull request. Save your code inside of the <code>submissions/your_name</code> folder.
+  To get started, create an account on <a href="http://jsbin.com/">JSBin</a>. I recommend connecting it to your Github account so it's easy for you to access later. You'll be writing all of your JavaScript code in JSBin and saving it to review later.
 </p>
 
 <p>
-  If you are writing JavaScript or Ruby, <strong>tests are required</strong> for your code to be reviewed. JavaScript tests can be written in <a href="{% post_url 2014-03-24-setting-up-qunit %}">Qunit</a> and Ruby tests should be written in RSpec.
+  <strong>Tests are required</strong> for your code to be reviewed. JavaScript tests can be written in <a href="{{ site.baseurl }}{% post_url 2014-03-24-setting-up-qunit %}">Qunit</a>. We will cover other methods for writing JavaScript tests later.
 </p>
 
-<h2>Exercises</h2>
+<strong>Before you begin...</strong>
+
+<p>
+  You need to be familiar with:
+</p>
+
+<ul>
+  <li>HTML and HTML5 semantic elements</li>
+  <li>CSS and CSS3 basics</li>
+  <li>JavaScript syntax</li>
+  <li>JavaScript data structures</li>
+  <li>jQuery</li>
+</ul>
+
+<p>
+  I don't expect you to know everything, but you should be comfortable enough with those things that you know where to go to look stuff up. If you're not, complete the <a href="http://www.codecademy.com/tracks/javascript">JavaScript</a> (the whole thing), <a href="http://www.codecademy.com/tracks/web">HTML, and CSS</a> tracks on Codecademy. I would also suggest that you read [Eloquent JavaScript](http://eloquentjavascript.net/contents.html), but we will be covering a bit of that during the weekly lessons.
+</p>
+
+<h2 class="border-bottom">Exercises</h2>
+
+<strong>Week 1</strong>
+
+<p>
+  We start off by building a strong foundation that goes a bit beyond the basics of JavaScript. We focus very heavily on testing for every week beyond this, so be sure to do lots of practice with testing.
+</p>
+
 <ul class="posts">
-  {% for post in site.categories.javascript %}
-    <li><span>{{ post.categories | array_to_sentence_string }}</span> &rarr; <a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% for post in site.categories.week1 %}
+    <li><span>{{ post.tags | array_to_sentence_string }}</span> &rarr; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
