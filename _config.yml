@@ -1,3 +1,5 @@
 name: Homework!
 markdown: redcarpet
 pygments: true
+base_url: homework
+permalink: /:title.html
