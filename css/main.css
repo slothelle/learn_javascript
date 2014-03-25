@@ -58,7 +58,7 @@ a:visited { color: #a0a; }
 .site {
   font-size: 115%;
   text-align: justify;
-  width: 42em;
+  max-width: 1200px;
   margin: 3em auto 2em;
   line-height: 1.5em;
 }
@@ -163,4 +163,12 @@ a:visited { color: #a0a; }
 
 .post pre.terminal code {
   background-color: #333;
+}
+
+
+/*helper borders*/
+.border-bottom {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
 }

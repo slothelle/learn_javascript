@@ -391,41 +391,6 @@ em, i {
 strong, b {
   font-weight: 720; }
 
-h1, h2, h3, h4, h5 {
-  margin: 5px 0px; }
-
-h1, h2 {
-  padding: 20px 0px; }
-
-h1 {
-  font-size: 2.415em;
-  font-weight: 800; }
-
-h2 {
-  font-size: 1.89em;
-  font-weight: 400; }
-
-h3, h4, h5 {
-  padding: 20px 0px 10px 0px; }
-
-h3 {
-  font-size: 1.575em;
-  font-weight: 400; }
-
-h4 {
-  font-size: 1.26em;
-  font-weight: 400; }
-
-h5 {
-  font-size: 1.05em;
-  font-weight: 800; }
-
-h6 {
-  padding: 5px 0px 0px 0px;
-  margin: 0px;
-  font-size: 0.84em;
-  font-weight: 800; }
-
 ul li, ol li {
   margin: 0px 40px;
   padding: 5px 0px; }
