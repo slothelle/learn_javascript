@@ -12,6 +12,7 @@ Before we learn how to use jQuery to make API calls, we need to learn how to use
 
 * [Using XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest)
 * [XMLHttpRequest basics and tutorial](http://www.html5rocks.com/en/tutorials/file/xhr2/)
+* [HTTP Requests](http://eloquentjavascript.net/chapter14.html)
 
 **Assignment**
 
