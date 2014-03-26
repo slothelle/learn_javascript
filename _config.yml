@@ -1,5 +1,5 @@
 name: 'JavaScript: Getting down to business'
 markdown: redcarpet
 pygments: true
-baseurl: /homework
+baseurl: /learn_javascript
 permalink: /:title.html
