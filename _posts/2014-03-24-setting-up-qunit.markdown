@@ -23,6 +23,7 @@ Definitely read about the different asssertion types before you try and write an
 * [Qunit assertion API](https://api.qunitjs.com/category/assert/)
 * [Qunit `module`](https://api.qunitjs.com/module/) for organizing your tests into groups
 * [Qunit `test`](https://api.qunitjs.com/test/)
+* [Introduction to JavaScript unit testing](http://coding.smashingmagazine.com/2012/06/27/introduction-to-javascript-unit-testing/)
 
 Assertions that expect objects to match include:
 
